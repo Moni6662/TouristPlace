@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+#Header{
+    height: 100px;
+    border: 1px solid gray;
+}
+#Header input{
+    border:1px solid lightgray;
+    border-radius:5px;
+}
+#Header img{
+   height: 80px;
+   width: 80px;
+   
+}
+
+/* NavBar */
+#Nav{
+   position: sticky;
+   top:0;
+   z-index: 1000;
+   background:rgb(52,58,64);
+    
+}
+
+/* Banner*/
+.card-img-overlay a{
+   position: relative;
+   top: 280px;
+   left:45%;
+}
+
+/* About */
+
+#About{
+    margin-top: 450px;
+}
+
+/* Destination */
+
+.card-body img{
+    height: 200px;
+    width: 100%;
+   
+}
+/* Place */
+
+
+
+
+/* Touries opinion */
+#Touriest img{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#Touriest{
+    text-align: center;
+}
+#Touriest h6{
+    font-weight: bold;
+}
+
+/* Footer */
+#Footer{
+    
+    background:rgb(52,58,64);
+    color: white;
+    text-align: center;
+}
+/* form */
+
+form{
+    border: 1px solid gray;
+    box-shadow: 2px 5px 5px gray;
+    padding: 10px;
+    /* background-color: lightgray; */
+}
+
+label{
+    color: rgba(16, 3, 46, 0.658);
+}
+
+.card img{
+   width: 100%;
+   height: 200px;
+   padding: 0;
+   margin: 0;
+}
+
+#Loginform{
+    margin-top: 10%;
+    margin-left: 40%;
+
+}
+#Loginform label{
+    font-weight: bold;
+}
